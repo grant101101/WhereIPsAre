@@ -1,0 +1,85 @@
+2020-01-29 10:02:04,659 fail2ban.server         [1613]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.3
+2020-01-29 10:02:13,834 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.12
+2020-01-29 10:02:33,340 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.11
+2020-01-29 10:02:38,246 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.10
+2020-01-29 10:02:47,698 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.9
+2020-01-29 10:02:52,572 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.8
+2020-01-29 10:02:52,654 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.7
+2020-01-29 10:02:52,704 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.6
+2020-01-29 10:02:52,734 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.5
+2020-01-29 10:02:52,762 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.4
+2020-01-29 10:02:52,806 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.3
+2020-01-29 10:02:52,826 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.2
+2020-01-29 10:02:52,868 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log.1
+2020-01-29 10:02:52,900 fail2ban.filter         [1613]: INFO    Log rotation detected for /var/log/fail2ban.log
+2020-03-21 16:01:57,569 fail2ban.server         [1538]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.3
+2020-03-21 16:01:57,694 fail2ban.database       [1538]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2020-03-21 16:01:57,769 fail2ban.jail           [1538]: INFO    Creating new jail 'sshd'
+2020-03-21 16:01:58,064 fail2ban.jail           [1538]: INFO    Jail 'sshd' uses pyinotify
+2020-03-21 16:01:58,080 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:01:58,088 fail2ban.jail           [1538]: INFO    Initiated 'pyinotify' backend
+2020-03-21 16:02:03,419 fail2ban.filter         [1538]: INFO    Set maxRetry = 3
+2020-03-21 16:02:03,420 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:02:03,421 fail2ban.actions        [1538]: INFO    Set banTime = 900
+2020-03-21 16:02:03,422 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/auth.log
+2020-03-21 16:02:03,424 fail2ban.filter         [1538]: INFO    Set findtime = 600
+2020-03-21 16:02:03,424 fail2ban.filter         [1538]: INFO    Set maxlines = 10
+2020-03-21 16:02:03,491 fail2ban.server         [1538]: INFO    Jail sshd is not a JournalFilter instance
+2020-03-21 16:02:03,498 fail2ban.jail           [1538]: INFO    Creating new jail 'ssh'
+2020-03-21 16:02:03,498 fail2ban.jail           [1538]: INFO    Jail 'ssh' uses pyinotify
+2020-03-21 16:02:03,499 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:02:03,506 fail2ban.jail           [1538]: INFO    Initiated 'pyinotify' backend
+2020-03-21 16:02:03,551 fail2ban.filter         [1538]: INFO    Set maxRetry = 6
+2020-03-21 16:02:03,553 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:02:03,553 fail2ban.actions        [1538]: INFO    Set banTime = 900
+2020-03-21 16:02:03,554 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/auth.log
+2020-03-21 16:02:03,555 fail2ban.filter         [1538]: INFO    Set findtime = 600
+2020-03-21 16:02:03,555 fail2ban.filter         [1538]: INFO    Set maxlines = 10
+2020-03-21 16:02:03,591 fail2ban.server         [1538]: INFO    Jail ssh is not a JournalFilter instance
+2020-03-21 16:02:03,597 fail2ban.jail           [1538]: INFO    Creating new jail 'repeatoffender'
+2020-03-21 16:02:03,597 fail2ban.jail           [1538]: INFO    Jail 'repeatoffender' uses pyinotify
+2020-03-21 16:02:03,598 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:02:03,605 fail2ban.jail           [1538]: INFO    Initiated 'pyinotify' backend
+2020-03-21 16:02:03,722 fail2ban.filter         [1538]: INFO    Set maxRetry = 10
+2020-03-21 16:02:03,724 fail2ban.filter         [1538]: INFO    Set jail log file encoding to UTF-8
+2020-03-21 16:02:03,724 fail2ban.actions        [1538]: INFO    Set banTime = -1
+2020-03-21 16:02:03,731 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.4.gz
+2020-03-21 16:02:03,732 fail2ban.filter         [1538]: WARNING Error decoding line from '/var/log/fail2ban.log.4.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00\x18\xf2\x93U\x00\x03\xbd\x9a\xcbn\xdbF\x14\x86\xf7}\n'
+2020-03-21 16:02:03,739 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.4
+2020-03-21 16:02:03,744 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.1
+2020-03-21 16:02:03,759 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.6
+2020-03-21 16:02:03,767 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.9
+2020-03-21 16:02:03,774 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.2
+2020-03-21 16:02:03,780 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.3.gz
+2020-03-21 16:02:03,780 fail2ban.filter         [1538]: WARNING Error decoding line from '/var/log/fail2ban.log.3.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00\x03E\xa3U\x00\x03\xbd\x96OO\xdb@\x10\xc5\xef\xfd\x14{\xcb\xc5,;\xfb\x7fW\xea\x81\xa2R\xd1\x03\x95\x80\xaa\x87\xaa\x07C\x9c\xe068\xc86\x14\xbe}gm \xb1\x89\xed-H\x1c\x10\x8a\x13\xff\xf6\xcd\xdb\x9d\xb7\xc3\x19\xa8=f\xf6\x98"L{\xae<\x88\xc49A\x16i\xbe\xe2\x17iA\xab\xac\xbc\xcbJ\xe2\xc9\xf1\xc9\xd17B\xc8\xe1UZ,\xb39Y\xad\x97\xcb\xbcX\x92:-\x97YM\xea5\xd9\xbfK\xcb}|\xbc\xff\xfc.~ \x8buI\x8e\x1e\x1f\x90;F-\x05\xf8\xc0\x9fVu\x84Y\xcf\xa4W.\xb1\x12\x86W=\xab\xd777a\xb9t\xb5"\xbf\xf1WU\x9f\xa1<c\tX\xb3a\x84\x9f\xe1\xab\xcf\x8c\xaf\xe1\xf3\xac\xaa\xaef\xa4\n'
+2020-03-21 16:02:03,789 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.10
+2020-03-21 16:02:03,796 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.8
+2020-03-21 16:02:03,802 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.13
+2020-03-21 16:02:03,810 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.3
+2020-03-21 16:02:03,812 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log
+2020-03-21 16:02:03,822 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.11
+2020-03-21 16:02:03,830 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.7
+2020-03-21 16:02:03,836 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.2.gz
+2020-03-21 16:02:03,836 fail2ban.filter         [1538]: WARNING Error decoding line from '/var/log/fail2ban.log.2.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00c\x88\xabU\x00\x03\xbd\x9aMo\x1cE\x10\x86\xef\xfc\x8a\xb9\xe5\xd2L\xba\xaa\xbfG\xe2@"\x82\xc2!H|\x88\x03\xe2\xb0\xc1kg\xc1\xac#{\x13\xc8\xbf\xe7\xad^\x7f\xccv\xb6g+\x18\x90bEv\xe2g\xab\xaa\xab\xab\xde\xaa\x19\xb6\x14>\xb7\xe9sr\x83\x8d\x13\x87\x89\x9c\xa1\x90\x87\xf3\xd5\xe6\x92_\xaf\xb6\xe3\xcd\xfa\xfa\xfd\xfaz\x98\x86\x97\xaf^|;\x0c\xc3\xf37\xab\xed\xc5\xfal\xb8\xbc\xba\xb8\xd8l/\x86\xdd\xea\xfab\xbd\x1bvW\xc3\xd3\xf7\xab\xeb\xa7\xf8\xf1\xd3\xfb\xdf\xc57\xc3\xf9\xd5\xf5\xf0\xe2\xf6\x07\xc3{;\xe6\x91\xe83~\xf8T\xa2\xc9\xf2\xc4\xd9\xd84\xfb\xd4\xd5\xaf\xbb\xcd\xd5\xf6f\x1a~\xfa\xf2\xbbW/_}=\xfc|s\xf3\xe6\x97\xe1\x19\x18\xcc<F;\x960\xb2w\r\x89*)\xd9p\x92\xf4\xe3\xf6\xf5"\xcbM\x84p\x90q\xd6\xaa\xac"\xf6#\xd94\x92/\xa3\x0f\r\x8a+\xaa\xf0i\x07\xf7f-\xc0\xe2\xe4\xc3\xe4pF\xde\xe9\xec\xca4\x862F7\x16j@\xa1\x82RLZ\xabz\xa8<\xf92q2>y\xb5M\xb0\x7f\x0c\x0e\x7f\xc5\x06\x15\x8a\x1c!\xa9\x8fp\x01V&k\xf1\x07\xb1:\xed\xe2\t\xbb\xcaD@\x91!G\xff\x86]\x80q0\x14\xe3\xe3\xedb\xa0"\\<\x8dR\xd8\x05\x98/\x86\xb22\xe7\x97P\xceN\x01\xa1\x8f\xa7SBa\x97G\xb6\xc2\xc9\xc8*\xbbp\xa3I\xaet\xa0\xb1pC\n'
+2020-03-21 16:02:03,851 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.5
+2020-03-21 16:02:03,859 fail2ban.filter         [1538]: INFO    Added logfile = /var/log/fail2ban.log.12
+2020-03-21 16:02:03,860 fail2ban.filter         [1538]: INFO    Set findtime = 31536000
+2020-03-21 16:02:03,869 fail2ban.jail           [1538]: INFO    Jail 'sshd' started
+2020-03-21 16:02:03,874 fail2ban.jail           [1538]: INFO    Jail 'ssh' started
+2020-03-21 16:02:05,637 fail2ban.jail           [1538]: INFO    Jail 'repeatoffender' started
+2020-03-21 16:02:05,908 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 1.85.62.39
+2020-03-21 16:02:26,272 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 101.227.249.53
+2020-03-21 16:02:46,631 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 104.148.71.143
+2020-03-21 16:03:06,986 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 104.217.216.147
+2020-03-21 16:03:27,350 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 104.238.141.45
+2020-03-21 16:03:47,697 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 112.64.154.126
+2020-03-21 16:04:08,057 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 112.85.218.11
+2020-03-21 16:04:28,414 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 115.231.16.66
+2020-03-21 16:04:48,770 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 115.231.217.119
+2020-03-21 16:05:09,118 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.196.15.91
+2020-03-21 16:05:29,474 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.31.116.24
+2020-03-21 16:05:49,847 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.31.116.25
+2020-03-21 16:06:10,346 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.31.116.26
+2020-03-21 16:06:31,642 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.31.116.27
+2020-03-21 16:06:51,993 fail2ban.actions        [1538]: NOTICE  [repeatoffender] Ban 116.31.116.28
+2020-03-21 16:06:54,255 fail2ban.filter         [1538]: INFO    Log rotation detected for /var/log/fail2ban.log.13

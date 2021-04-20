@@ -1,0 +1,114 @@
+2021-04-06 16:06:37,653 fail2ban.server         [1550]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.3
+2021-04-06 16:06:37,658 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.9
+2021-04-06 16:06:37,692 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.8
+2021-04-06 16:06:37,724 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.7
+2021-04-06 16:06:37,734 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.6
+2021-04-06 16:06:37,755 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.5
+2021-04-06 16:06:37,794 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.4
+2021-04-06 16:06:37,878 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.3
+2021-04-06 16:06:37,902 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.2
+2021-04-06 16:06:37,941 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log.1
+2021-04-06 16:06:37,962 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/fail2ban.log
+2021-04-06 16:06:55,893 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 117.21.173.4
+2021-04-06 16:07:16,156 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 118.244.158.237
+2021-04-06 16:07:36,414 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 119.147.137.10
+2021-04-06 16:07:56,776 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 120.24.226.229
+2021-04-06 16:08:17,141 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.10
+2021-04-06 16:08:37,502 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.11
+2021-04-06 16:08:57,864 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.12
+2021-04-06 16:09:18,238 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.19
+2021-04-06 16:09:39,100 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.20
+2021-04-06 16:09:59,778 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.22
+2021-04-06 16:10:20,315 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.31
+2021-04-06 16:10:40,667 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.32
+2021-04-06 16:11:01,018 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.6
+2021-04-06 16:11:21,372 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.7
+2021-04-06 16:11:41,725 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.8
+2021-04-06 16:12:02,078 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.18.238.9
+2021-04-06 16:12:22,518 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 121.54.169.125
+2021-04-06 16:12:42,881 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 122.194.229.6
+2021-04-06 16:13:03,236 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 122.226.131.132
+2021-04-06 16:13:23,595 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 123.16.189.200
+2021-04-06 16:13:43,947 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 124.224.177.182
+2021-04-06 16:14:04,299 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.146.116
+2021-04-06 16:14:24,651 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.146.119
+2021-04-06 16:14:45,004 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.177.87
+2021-04-06 16:15:05,355 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.177.90
+2021-04-06 16:15:25,707 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.177.93
+2021-04-06 16:15:46,060 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 125.88.177.98
+2021-04-06 16:16:06,415 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 173.254.236.13
+2021-04-06 16:16:26,788 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 175.126.103.65
+2021-04-06 16:16:47,140 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 180.97.215.79
+2021-04-06 16:17:07,502 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.108
+2021-04-06 16:17:27,854 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.109
+2021-04-06 16:17:48,206 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.119
+2021-04-06 16:18:08,558 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.143
+2021-04-06 16:18:28,910 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.185
+2021-04-06 16:18:49,263 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.187
+2021-04-06 16:19:09,616 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.189
+2021-04-06 16:19:29,969 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.200
+2021-04-06 16:19:50,321 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 183.3.202.201
+2021-04-06 16:20:10,674 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 185.103.252.14
+2021-04-06 16:20:31,026 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 200.40.132.6
+2021-04-06 16:20:51,379 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 202.106.52.86
+2021-04-06 16:21:11,742 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 212.129.59.201
+2021-04-06 16:21:32,105 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 212.91.171.178
+2021-04-06 16:21:52,458 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 218.65.30.152
+2021-04-06 16:22:12,819 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 218.89.132.53
+2021-04-06 16:22:33,171 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 219.157.254.127
+2021-04-06 16:22:53,522 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.181.73.34
+2021-04-06 16:23:13,874 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.194
+2021-04-06 16:23:34,227 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.216
+2021-04-06 16:23:54,634 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.218
+2021-04-06 16:24:14,988 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.219
+2021-04-06 16:24:35,831 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.223
+2021-04-06 16:24:56,184 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.194.44.227
+2021-04-06 16:25:16,567 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.229.162.7
+2021-04-06 16:25:36,928 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.229.166.101
+2021-04-06 16:25:57,283 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.229.172.102
+2021-04-06 16:26:17,638 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.229.172.7
+2021-04-06 16:26:37,991 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 221.232.129.51
+2021-04-06 16:26:58,344 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.171.202.10
+2021-04-06 16:27:18,697 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.129.243
+2021-04-06 16:27:39,050 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.15.79
+2021-04-06 16:27:59,403 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.21.101
+2021-04-06 16:28:19,756 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.21.212
+2021-04-06 16:28:40,110 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.21.72
+2021-04-06 16:29:00,463 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.21.80
+2021-04-06 16:29:20,817 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.21.90
+2021-04-06 16:29:41,171 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.23.100
+2021-04-06 16:30:01,523 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.30.211
+2021-04-06 16:30:21,876 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.31.181
+2021-04-06 16:30:42,230 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.34.143
+2021-04-06 16:31:02,583 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.34.200
+2021-04-06 16:31:22,937 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.34.225
+2021-04-06 16:31:43,290 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.34.73
+2021-04-06 16:32:03,543 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.42.174
+2021-04-06 16:32:23,896 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.51.178
+2021-04-06 16:32:44,250 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 222.186.56.92
+2021-04-06 16:33:04,603 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 223.105.0.130
+2021-04-06 16:33:24,956 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 23.92.179.118
+2021-04-06 16:33:45,309 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 27.74.252.208
+2021-04-06 16:34:05,662 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 45.35.20.209
+2021-04-06 16:34:26,015 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.199.166
+2021-04-06 16:34:46,369 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.199.96
+2021-04-06 16:35:06,726 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.107
+2021-04-06 16:35:27,080 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.211
+2021-04-06 16:35:47,434 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.215
+2021-04-06 16:36:07,790 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.23
+2021-04-06 16:36:28,144 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.30
+2021-04-06 16:36:48,498 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.32
+2021-04-06 16:37:08,854 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.204.80
+2021-04-06 16:37:29,215 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.205.101
+2021-04-06 16:37:49,569 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.205.97
+2021-04-06 16:38:09,924 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.211.11
+2021-04-06 16:38:30,279 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.211.17
+2021-04-06 16:38:50,632 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 58.218.211.244
+2021-04-06 16:39:10,986 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 59.51.24.186
+2021-04-06 16:39:31,347 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 61.161.219.110
+2021-04-06 16:39:51,700 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 64.211.24.227
+2021-04-06 16:40:12,061 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 89.238.64.148
+2021-04-06 16:40:32,416 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 91.224.160.10
+2021-04-06 16:40:52,770 fail2ban.actions        [1550]: NOTICE  [repeatoffender] Ban 91.224.161.39
+2021-04-13 07:48:29,595 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/auth.log
+2021-04-13 07:48:29,596 fail2ban.filter         [1550]: INFO    Log rotation detected for /var/log/auth.log

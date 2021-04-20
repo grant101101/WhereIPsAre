@@ -1,0 +1,186 @@
+2019-07-01 04:00:06,039 fail2ban.server         [1584]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.3
+2019-07-01 04:00:09,950 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.12
+2019-07-01 04:00:13,965 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.11
+2019-07-01 04:00:18,827 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.10
+2019-07-01 04:00:25,794 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 117.21.173.4
+2019-07-01 04:00:28,089 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.9
+2019-07-01 04:00:46,151 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 118.244.158.237
+2019-07-01 04:00:49,055 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.8
+2019-07-01 04:00:53,888 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.7
+2019-07-01 04:01:03,310 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.6
+2019-07-01 04:01:06,661 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 119.147.137.10
+2019-07-01 04:01:08,187 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.5
+2019-07-01 04:01:08,261 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.4
+2019-07-01 04:01:08,302 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.3
+2019-07-01 04:01:08,327 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.2
+2019-07-01 04:01:08,363 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log.1
+2019-07-01 04:01:08,400 fail2ban.filter         [1584]: INFO    Log rotation detected for /var/log/fail2ban.log
+2019-07-01 04:01:26,957 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 120.24.226.229
+2019-07-01 04:01:47,336 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.10
+2019-07-01 04:02:07,700 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.11
+2019-07-01 04:02:28,061 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.12
+2019-07-01 04:02:48,427 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.19
+2019-07-01 04:03:09,144 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.20
+2019-07-01 04:03:29,629 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.22
+2019-07-01 04:03:50,074 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.31
+2019-07-01 04:04:10,430 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.32
+2019-07-01 04:04:30,787 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.6
+2019-07-01 04:04:51,144 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.7
+2019-07-01 04:05:11,500 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.8
+2019-07-01 04:05:31,856 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.18.238.9
+2019-07-01 04:05:52,252 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 121.54.169.125
+2019-07-01 04:06:12,625 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 122.194.229.6
+2019-07-01 04:06:32,980 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 122.226.131.132
+2019-07-01 04:06:53,347 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 123.16.189.200
+2019-07-01 04:07:13,703 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 124.224.177.182
+2019-07-01 04:07:34,058 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.146.116
+2019-07-01 04:07:54,414 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.146.119
+2019-07-01 04:08:14,770 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.177.87
+2019-07-01 04:08:35,026 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.177.90
+2019-07-01 04:08:55,381 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.177.93
+2019-07-01 04:09:15,736 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 125.88.177.98
+2019-07-01 04:09:36,099 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 173.254.236.13
+2019-07-01 04:09:56,472 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 175.126.103.65
+2019-07-01 04:10:16,728 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 180.97.215.79
+2019-07-01 04:10:37,087 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.108
+2019-07-01 04:10:57,442 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.109
+2019-07-01 04:11:17,799 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.119
+2019-07-01 04:11:38,155 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.143
+2019-07-01 04:11:58,512 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.185
+2019-07-01 04:12:18,869 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.187
+2019-07-01 04:12:39,224 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.189
+2019-07-01 04:12:59,580 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.200
+2019-07-01 04:13:19,937 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 183.3.202.201
+2019-07-01 04:13:40,292 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 185.103.252.14
+2019-07-01 04:14:00,648 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 200.40.132.6
+2019-07-01 04:14:21,004 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 202.106.52.86
+2019-07-01 04:14:41,268 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 212.129.59.201
+2019-07-01 04:15:01,631 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 212.91.171.178
+2019-07-01 04:15:21,987 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 218.65.30.152
+2019-07-01 04:15:42,352 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 218.89.132.53
+2019-07-01 04:16:02,708 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 219.157.254.127
+2019-07-01 04:16:23,064 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.181.73.34
+2019-07-01 04:16:43,419 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.194
+2019-07-01 04:17:03,776 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.216
+2019-07-01 04:17:24,180 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.218
+2019-07-01 04:17:44,537 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.219
+2019-07-01 04:18:05,329 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.223
+2019-07-01 04:18:25,686 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.194.44.227
+2019-07-01 04:18:46,064 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.229.162.7
+2019-07-01 04:19:06,425 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.229.166.101
+2019-07-01 04:19:26,783 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.229.172.102
+2019-07-01 04:19:47,141 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.229.172.7
+2019-07-01 04:20:07,499 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 221.232.129.51
+2019-07-01 04:20:27,856 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.171.202.10
+2019-07-01 04:20:48,213 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.129.243
+2019-07-01 04:21:08,571 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.15.79
+2019-07-01 04:21:28,927 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.21.101
+2019-07-01 04:21:49,285 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.21.212
+2019-07-01 04:22:09,640 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.21.72
+2019-07-01 04:22:29,997 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.21.80
+2019-07-01 04:22:50,353 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.21.90
+2019-07-01 04:23:10,711 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.23.100
+2019-07-01 04:23:31,068 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.30.211
+2019-07-01 04:23:51,425 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.31.181
+2019-07-01 04:24:11,782 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.34.143
+2019-07-01 04:24:32,139 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.34.200
+2019-07-01 04:24:52,496 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.34.225
+2019-07-01 04:25:12,853 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.34.73
+2019-07-01 04:25:33,209 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.42.174
+2019-07-01 04:25:53,565 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.51.178
+2019-07-01 04:26:13,921 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 222.186.56.92
+2019-07-01 04:26:34,277 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 223.105.0.130
+2019-07-01 04:26:54,632 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 23.92.179.118
+2019-07-01 04:27:14,989 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 27.74.252.208
+2019-07-01 04:27:35,345 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 45.35.20.209
+2019-07-01 04:27:55,703 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.199.166
+2019-07-01 04:28:16,061 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.199.96
+2019-07-01 04:28:36,423 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.107
+2019-07-01 04:28:56,780 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.211
+2019-07-01 04:29:17,138 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.215
+2019-07-01 04:29:37,496 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.23
+2019-07-01 04:29:57,853 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.30
+2019-07-01 04:30:18,209 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.32
+2019-07-01 04:30:38,566 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.204.80
+2019-07-01 04:30:58,933 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.205.101
+2019-07-01 04:31:19,291 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.205.97
+2019-07-01 04:31:39,648 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.211.11
+2019-07-01 04:32:00,004 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.211.17
+2019-07-01 04:32:20,362 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 58.218.211.244
+2019-07-01 04:32:40,720 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 59.51.24.186
+2019-07-01 04:33:01,084 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 61.161.219.110
+2019-07-01 04:33:21,441 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 64.211.24.227
+2019-07-01 04:33:41,805 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 89.238.64.148
+2019-07-01 04:34:02,161 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 91.224.160.10
+2019-07-01 04:34:22,518 fail2ban.actions        [1584]: NOTICE  [repeatoffender] Ban 91.224.161.39
+2019-08-13 23:37:55,940 fail2ban.server         [1557]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.9.3
+2019-08-13 23:37:56,015 fail2ban.database       [1557]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2019-08-13 23:37:56,078 fail2ban.jail           [1557]: INFO    Creating new jail 'sshd'
+2019-08-13 23:37:56,423 fail2ban.jail           [1557]: INFO    Jail 'sshd' uses pyinotify
+2019-08-13 23:37:56,438 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:37:56,445 fail2ban.jail           [1557]: INFO    Initiated 'pyinotify' backend
+2019-08-13 23:38:01,770 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/auth.log
+2019-08-13 23:38:01,772 fail2ban.actions        [1557]: INFO    Set banTime = 900
+2019-08-13 23:38:01,772 fail2ban.filter         [1557]: INFO    Set findtime = 600
+2019-08-13 23:38:01,772 fail2ban.filter         [1557]: INFO    Set maxRetry = 3
+2019-08-13 23:38:01,773 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:38:01,774 fail2ban.filter         [1557]: INFO    Set maxlines = 10
+2019-08-13 23:38:01,840 fail2ban.server         [1557]: INFO    Jail sshd is not a JournalFilter instance
+2019-08-13 23:38:01,846 fail2ban.jail           [1557]: INFO    Creating new jail 'ssh'
+2019-08-13 23:38:01,846 fail2ban.jail           [1557]: INFO    Jail 'ssh' uses pyinotify
+2019-08-13 23:38:01,847 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:38:01,855 fail2ban.jail           [1557]: INFO    Initiated 'pyinotify' backend
+2019-08-13 23:38:01,883 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/auth.log
+2019-08-13 23:38:01,885 fail2ban.actions        [1557]: INFO    Set banTime = 900
+2019-08-13 23:38:01,885 fail2ban.filter         [1557]: INFO    Set findtime = 600
+2019-08-13 23:38:01,885 fail2ban.filter         [1557]: INFO    Set maxRetry = 6
+2019-08-13 23:38:01,886 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:38:01,887 fail2ban.filter         [1557]: INFO    Set maxlines = 10
+2019-08-13 23:38:01,922 fail2ban.server         [1557]: INFO    Jail ssh is not a JournalFilter instance
+2019-08-13 23:38:01,928 fail2ban.jail           [1557]: INFO    Creating new jail 'repeatoffender'
+2019-08-13 23:38:01,928 fail2ban.jail           [1557]: INFO    Jail 'repeatoffender' uses pyinotify
+2019-08-13 23:38:01,929 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:38:01,937 fail2ban.jail           [1557]: INFO    Initiated 'pyinotify' backend
+2019-08-13 23:38:02,062 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.4.gz
+2019-08-13 23:38:02,063 fail2ban.filter         [1557]: WARNING Error decoding line from '/var/log/fail2ban.log.4.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00\x18\xf2\x93U\x00\x03\xbd\x9a\xcbn\xdbF\x14\x86\xf7}\n'
+2019-08-13 23:38:02,067 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.4
+2019-08-13 23:38:02,078 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.1
+2019-08-13 23:38:02,086 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.6
+2019-08-13 23:38:02,094 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.9
+2019-08-13 23:38:02,110 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.2
+2019-08-13 23:38:02,117 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.3.gz
+2019-08-13 23:38:02,117 fail2ban.filter         [1557]: WARNING Error decoding line from '/var/log/fail2ban.log.3.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00\x03E\xa3U\x00\x03\xbd\x96OO\xdb@\x10\xc5\xef\xfd\x14{\xcb\xc5,;\xfb\x7fW\xea\x81\xa2R\xd1\x03\x95\x80\xaa\x87\xaa\x07C\x9c\xe068\xc86\x14\xbe}gm \xb1\x89\xed-H\x1c\x10\x8a\x13\xff\xf6\xcd\xdb\x9d\xb7\xc3\x19\xa8=f\xf6\x98"L{\xae<\x88\xc49A\x16i\xbe\xe2\x17iA\xab\xac\xbc\xcbJ\xe2\xc9\xf1\xc9\xd17B\xc8\xe1UZ,\xb39Y\xad\x97\xcb\xbcX\x92:-\x97YM\xea5\xd9\xbfK\xcb}|\xbc\xff\xfc.~ \x8buI\x8e\x1e\x1f\x90;F-\x05\xf8\xc0\x9fVu\x84Y\xcf\xa4W.\xb1\x12\x86W=\xab\xd777a\xb9t\xb5"\xbf\xf1WU\x9f\xa1<c\tX\xb3a\x84\x9f\xe1\xab\xcf\x8c\xaf\xe1\xf3\xac\xaa\xaef\xa4\n'
+2019-08-13 23:38:02,127 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.10
+2019-08-13 23:38:02,136 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.8
+2019-08-13 23:38:02,142 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.13
+2019-08-13 23:38:02,150 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.3
+2019-08-13 23:38:02,155 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log
+2019-08-13 23:38:02,162 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.11
+2019-08-13 23:38:02,168 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.7
+2019-08-13 23:38:02,173 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.2.gz
+2019-08-13 23:38:02,173 fail2ban.filter         [1557]: WARNING Error decoding line from '/var/log/fail2ban.log.2.gz' with 'UTF-8'. Consider setting logencoding=utf-8 (or another appropriate encoding) for this jail. Continuing to process line ignoring invalid characters: b'\x1f\x8b\x08\x00c\x88\xabU\x00\x03\xbd\x9aMo\x1cE\x10\x86\xef\xfc\x8a\xb9\xe5\xd2L\xba\xaa\xbfG\xe2@"\x82\xc2!H|\x88\x03\xe2\xb0\xc1kg\xc1\xac#{\x13\xc8\xbf\xe7\xad^\x7f\xccv\xb6g+\x18\x90bEv\xe2g\xab\xaa\xab\xab\xde\xaa\x19\xb6\x14>\xb7\xe9sr\x83\x8d\x13\x87\x89\x9c\xa1\x90\x87\xf3\xd5\xe6\x92_\xaf\xb6\xe3\xcd\xfa\xfa\xfd\xfaz\x98\x86\x97\xaf^|;\x0c\xc3\xf37\xab\xed\xc5\xfal\xb8\xbc\xba\xb8\xd8l/\x86\xdd\xea\xfab\xbd\x1bvW\xc3\xd3\xf7\xab\xeb\xa7\xf8\xf1\xd3\xfb\xdf\xc57\xc3\xf9\xd5\xf5\xf0\xe2\xf6\x07\xc3{;\xe6\x91\xe83~\xf8T\xa2\xc9\xf2\xc4\xd9\xd84\xfb\xd4\xd5\xaf\xbb\xcd\xd5\xf6f\x1a~\xfa\xf2\xbbW/_}=\xfc|s\xf3\xe6\x97\xe1\x19\x18\xcc<F;\x960\xb2w\r\x89*)\xd9p\x92\xf4\xe3\xf6\xf5"\xcbM\x84p\x90q\xd6\xaa\xac"\xf6#\xd94\x92/\xa3\x0f\r\x8a+\xaa\xf0i\x07\xf7f-\xc0\xe2\xe4\xc3\xe4pF\xde\xe9\xec\xca4\x862F7\x16j@\xa1\x82RLZ\xabz\xa8<\xf92q2>y\xb5M\xb0\x7f\x0c\x0e\x7f\xc5\x06\x15\x8a\x1c!\xa9\x8fp\x01V&k\xf1\x07\xb1:\xed\xe2\t\xbb\xcaD@\x91!G\xff\x86]\x80q0\x14\xe3\xe3\xedb\xa0"\\<\x8dR\xd8\x05\x98/\x86\xb22\xe7\x97P\xceN\x01\xa1\x8f\xa7SBa\x97G\xb6\xc2\xc9\xc8*\xbbp\xa3I\xaet\xa0\xb1pC\n'
+2019-08-13 23:38:02,183 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.5
+2019-08-13 23:38:02,190 fail2ban.filter         [1557]: INFO    Added logfile = /var/log/fail2ban.log.12
+2019-08-13 23:38:02,192 fail2ban.actions        [1557]: INFO    Set banTime = -1
+2019-08-13 23:38:02,192 fail2ban.filter         [1557]: INFO    Set findtime = 31536000
+2019-08-13 23:38:02,192 fail2ban.filter         [1557]: INFO    Set maxRetry = 10
+2019-08-13 23:38:02,193 fail2ban.filter         [1557]: INFO    Set jail log file encoding to UTF-8
+2019-08-13 23:38:02,202 fail2ban.jail           [1557]: INFO    Jail 'sshd' started
+2019-08-13 23:38:02,208 fail2ban.jail           [1557]: INFO    Jail 'ssh' started
+2019-08-13 23:38:03,914 fail2ban.jail           [1557]: INFO    Jail 'repeatoffender' started
+2019-08-13 23:38:04,243 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 1.85.62.39
+2019-08-13 23:38:24,611 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 101.227.249.53
+2019-08-13 23:38:44,965 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 104.148.71.143
+2019-08-13 23:39:05,320 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 104.217.216.147
+2019-08-13 23:39:25,688 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 104.238.141.45
+2019-08-13 23:39:46,035 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 112.64.154.126
+2019-08-13 23:40:06,391 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 112.85.218.11
+2019-08-13 23:40:26,748 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 115.231.16.66
+2019-08-13 23:40:47,102 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 115.231.217.119
+2019-08-13 23:41:07,449 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.196.15.91
+2019-08-13 23:41:27,803 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.31.116.24
+2019-08-13 23:41:48,180 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.31.116.25
+2019-08-13 23:42:08,680 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.31.116.26
+2019-08-13 23:42:29,950 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.31.116.27
+2019-08-13 23:42:50,303 fail2ban.actions        [1557]: NOTICE  [repeatoffender] Ban 116.31.116.28
+2019-08-13 23:42:52,180 fail2ban.filter         [1557]: INFO    Log rotation detected for /var/log/fail2ban.log.13
