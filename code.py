@@ -8,8 +8,10 @@ import csv
 import re
 import pandas as pd
 import plotly as pl
+from ipstack import GeoLookup
 #fail2ban.actions
 
+#data = pd.DataFrame()
 
 class project:
     def step0 (self):
@@ -50,6 +52,24 @@ class project:
         
     def step3(self):
         print("step3")
+        df = pd.read_csv("IPs.csv", names=['date','ip'], header=None)
+        unique = df['ip'].unique()
+        # ryan m's API key
+        # careful: limited to 10,000 requests
+        gl = GeoLookup("ba1b4b735b7c286f04a392635dc6719e")
+
+        cols = ['ip','continent_name','country_name','region_name','city','zip','latitude','longitude']
+        tempData = []
+        
+        for i in unique:
+            response = gl.get_location(i)
+            locData = []
+            for c in cols:
+                locData.append(response[c])
+            tempData.append(locData)
+        td = pd.DataFrame(data=tempData,columns=cols)
+        td.to_csv('locs.csv')
+        print(td)
         
     def step4(self):
         print("step4")
@@ -60,4 +80,4 @@ class project:
 p = project()
 #p.step0()
 #p.step1("interest.csv", "ignore.csv")
-p.step2()
+p.step3()
