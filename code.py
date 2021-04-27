@@ -1,3 +1,4 @@
+#%%
 # -*- coding: utf-8 -*-
 """
 Created on Tue Apr 20 11:50:50 2021
@@ -58,19 +59,25 @@ class project:
         # careful: limited to 10,000 requests
         gl = GeoLookup("ba1b4b735b7c286f04a392635dc6719e")
 
-        cols = ['ip','continent_name','country_name','region_name','city','zip','latitude','longitude']
+        cols = ['ip','continent_code','continent_name','country_name','country_code','latitude','longitude']
         tempData = []
-        
+
         for i in unique:
             response = gl.get_location(i)
             locData = []
             for c in cols:
                 locData.append(response[c])
             tempData.append(locData)
+            
         td = pd.DataFrame(data=tempData,columns=cols)
         td.to_csv('locs.csv')
-        print(td)
         
+        # merge the location data with the IP data, where IPs are the same
+        complete = pd.merge(df,td,how='left',on='ip')
+        complete.to_csv('complete.csv')
+            
+        print(complete)
+
     def step4(self):
         print("step4")
         
@@ -78,6 +85,7 @@ class project:
         print("step5")
         
 p = project()
-#p.step0()
-#p.step1("interest.csv", "ignore.csv")
+p.step0()
+p.step1("interest.csv", "ignore.csv")
+p.step2()
 p.step3()
