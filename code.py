@@ -6,6 +6,8 @@ Created on Tue Apr 20 11:50:50 2021
 """
 import csv
 import re
+import pandas as pd
+import plotly as pl
 #fail2ban.actions
 
 
@@ -37,8 +39,14 @@ class project:
                     inf = [date + " " + time, ip]
                     writer.writerow(inf)
         
-    def step2(self, interest, ignore):
+    def step2(self):
         print("step2")
+        df = pd.read_csv("IPs.csv", names=['date','ip'], header=None)
+        print(df)
+        # how many unique IPs?
+        print(df.nunique())
+        # how many of each IP?
+        print(df['ip'].value_counts())
         
     def step3(self):
         print("step3")
@@ -50,4 +58,6 @@ class project:
         print("step5")
         
 p = project()
-p.step1("interest.csv", "ignore.csv")
+#p.step0()
+#p.step1("interest.csv", "ignore.csv")
+p.step2()
