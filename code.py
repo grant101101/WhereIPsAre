@@ -24,7 +24,7 @@ class project:
                     with open('fail2banlogs/fail2ban.log.'+ str(x), newline='') as csvfile:
                         spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
                         for row in spamreader:
-                            m = re.search( 'NOTICE', str(row))
+                            m = re.search( 'Ban', str(row))
                             if m:
                                 writer1.writerow(row)
                             else:
@@ -38,12 +38,11 @@ class project:
                 for row in spamreader:
                     date = re.search(r'\d{4}[-/]\d{2}[-/]\d{2}',str(row)).group()
                     time = re.search(r'\d{2}[:/]\d{2}[:/]\d{2}', str(row)).group()
-                    ip = re.search(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", str(row)).group()
+                    ip = re.search(r"\d{1,3}[./]\d{1,3}[./]\d{1,3}[./]\d{1,3}", str(row)).group()
                     inf = [date + " " + time, ip]
                     writer.writerow(inf)
         
     def step2(self):
-        print("step2")
         df = pd.read_csv("IPs.csv", names=['date','ip'], header=None)
         print(df)
         # how many unique IPs?
@@ -52,7 +51,6 @@ class project:
         print(df['ip'].value_counts())
         
     def step3(self):
-        print("step3")
         df = pd.read_csv("IPs.csv", names=['date','ip'], header=None)
         unique = df['ip'].unique()
         # ryan m's API key
@@ -78,8 +76,11 @@ class project:
             
         print(complete)
 
-    def step4(self):
-        print("step4")
+    def step4(self, complete):
+        data = pd.read_csv(complete, names=['date','ip','continent_code','continent_name','country_name','country_code','latitude','longitude'], header=None)
+        ips = data['ip'].value_counts()
+        continents = data.groupby(['continent_name','ip']).groups
+        countries = data.groupby('country_name').groups
         
     def step5(self):
         print("step5")
@@ -89,3 +90,4 @@ p.step0()
 p.step1("interest.csv", "ignore.csv")
 p.step2()
 p.step3()
+p.step4("complete.csv")
