@@ -10,9 +10,11 @@ import re
 import pandas as pd
 import plotly as pl
 from ipstack import GeoLookup
+import plotly.express as px
+import plotly.io as pio
 #fail2ban.actions
 
-#data = pd.DataFrame()
+pio.renderers.default='browser'
 
 class project:
     def step0 (self):
@@ -84,6 +86,17 @@ class project:
         
     def step5(self):
         print("step5")
+        df = pd.read_csv('complete.csv', names=['date','ip','continent_code','continent_name','country_name','country_code','latitude','longitude'], header=0)
+        print(df.to_string)
+        
+        # IPs by hour
+        df['date'] = df['date'].str.split(':').str[0]
+        data = df.sort_values(by='date')
+        china = data.loc[data['country_code']=='CN']
+        
+        fig = px.histogram(data,x='date',title="IPs Banned, by Time of Day",labels={'date':'Hour of Day','count':'Count'})
+        #fig.show()
+        
         
 p = project()
 p.step0()
@@ -91,3 +104,4 @@ p.step1("interest.csv", "ignore.csv")
 p.step2()
 p.step3()
 p.step4("complete.csv")
+p.step5()
