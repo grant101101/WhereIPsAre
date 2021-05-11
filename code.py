@@ -12,6 +12,8 @@ import plotly as pl
 from ipstack import GeoLookup
 import plotly.express as px
 import plotly.io as pio
+import plotly.graph_objects as go
+from plotly.offline import plot
 #fail2ban.actions
 
 pio.renderers.default='browser'
@@ -99,12 +101,49 @@ class project:
 
         fig = px.histogram(data,x='date',title="IPs Banned, by Time of Day",labels={'date':'Hour of Day','count':'Count'})
         #fig.show()
+        country_value_counts=df['country_code'].value_counts()
+        valuesdf=pd.DataFrame(country_value_counts)
+        valuesdf=valuesdf.reset_index()
+        valuesdf.columns=['country_code','code_count']
+        df['size']=pd.Series([131368309 for x in range(len(df.index))],index=df.index)
+        fig1=go.Figure(data=go.Scattergeo(lon=df['longitude'],lat=df['latitude'],
+                                         text=df['ip'],mode='markers', marker_color='purple',
+                                         ))
+        fig1.update_layout(title='IP Address Locations Across the World')
+        #plot(fig1)
+        
+        #histogram
+        fig2=px.histogram(valuesdf,x='country_code',y='code_count',
+                          labels={'country_code':'Country Code',
+                                  'code_count':'Number of IPs'})
+        fig2.update_layout(title='Number of IPs From Each Country')
+        #plot(fig2)
+        
+        countrylat=[35,38,16,64,51,37,-33,22.25,60,43,46,54]
+        countrylon=[105,-97,106,26,9,127,-56,114.1667,100,25,2,-2]
+        valuesdf['country_lat']=countrylat
+        valuesdf['country_lon']=countrylon
+        valuesdf['code_count']=valuesdf['code_count']
+        #print(valuesdf)
+        fig3=px.scatter_geo(valuesdf,lat='country_lat',lon='country_lon',size='code_count',projection='natural earth',title='Bubble Map of IPs')
+        #plot(fig3)
+        
+        fig4=go.Figure(data=[go.Table(
+            header=dict(values=['Country Code','Country Count'],
+                        fill_color='paleturquoise',align='left'),
+            cells=dict(values=[valuesdf['country_code'],valuesdf['code_count']],
+                               fill_color='lavender',align='left'))
+                               ])
+        #plot(fig1)
+        #plot(fig2)
+        #plot(fig3)
+        #plot(fig4)
 
 
 p = project()
-p.step0()
-p.step1("interest.csv", "ignore.csv")
-p.step2()
-p.step3()
-p.step4("complete.csv")
-p.step5()
+#p.step0()
+#p.step1("interest.csv", "ignore.csv")
+#p.step2()
+#p.step3()
+#p.step4("complete.csv")
+#p.step5()
