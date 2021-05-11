@@ -81,14 +81,39 @@ class project:
         
     def step4(self):
         print("step4")
-        df = pd.read_csv('locs.csv', usecols= ['ip','continent_name','continent_code','country_code','country_name','latitude','longitude'])
+        df = pd.read_csv('complete.csv', usecols= ['date','ip','continent_name','continent_code','country_code','country_name','latitude','longitude'])
         print(df)
+        country_value_counts=df['country_code'].value_counts()
+        valuesdf=pd.DataFrame(country_value_counts)
+        valuesdf=valuesdf.reset_index()
+        valuesdf.columns=['country_code','code_count']
+        #print(valuesdf)
         df['size']=pd.Series([131368309 for x in range(len(df.index))],index=df.index)
-        fig=go.Figure(data=go.Scattergeo(lon=df['longitude'],lat=df['latitude'],
+        
+       #scatterplot 
+        fig1=go.Figure(data=go.Scattergeo(lon=df['longitude'],lat=df['latitude'],
                                          text=df['ip'],mode='markers', marker_color='purple',
                                          ))
-        fig.update_layout(title='IP Adresses')
-        plot(fig)
+        fig1.update_layout(title='IP Adress Locations Across the World')
+        #plot(fig1)
+        
+        #histogram
+        fig2=px.histogram(valuesdf,x='country_code',y='code_count')
+        fig2.update_layout(title='Number of IPs From Each Country')
+        #plot(fig2)
+        
+        countrylat=[35,38,16,64,51,37,-33,22.25,60,43,46,54]
+        countrylon=[105,-97,106,26,9,127,-56,114.1667,100,25,2,-2]
+        valuesdf['country_lat']=countrylat
+        valuesdf['country_lon']=countrylon
+        print(valuesdf)
+        fig3=px.scatter_geo(valuesdf,lat='country_lat',lon='country_lon',size='code_count',projection='natural earth')
+        #plot(fig3)
+        
+        fig4=px.bar(df,x='date',y='country_code',title='Dates of IP Accesses')
+        plot(fig4)
+        
+        print("step4")
     def step5(self):
         print("step5")
         
